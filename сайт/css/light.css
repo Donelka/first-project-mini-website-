@@ -1,0 +1,162 @@
+.body{
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+
+.header{
+    width: 100%;
+    padding-top: 0px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+.header_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.header__logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+}
+.nav{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    position: relative;
+
+    color: #000000;
+    text-decoration: none;
+
+    transition: color 0.2s linear;
+}
+.nav_link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    display: none;
+
+    background-color: #5D71DD;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.nav_link:hover{
+color: #5D71DD;
+}
+
+.nav_link:hover:after{
+    display: block;
+}
+
+.intro{
+    width: 100%;
+    height: 165vh;
+font-size: 14px;
+    background: url("/assets/fon.png")center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.i,
+.g {
+    margin-top: 70px;
+  display: grid;
+border-radius: 10px;
+}
+.a
+ {
+  float: left;
+  background-color: #f5f5f5;
+  padding: 20px;
+  max-width: 500px;
+}
+.b {
+ float: right;
+ background-color: #f5f5f5;
+  padding: 20px;
+  max-width: 500px;
+}
+   .c {
+    float: left;
+    background-color: #f5f5f5;
+  padding: 20px;
+  max-width: 500px;
+   }
+   .d {
+    float: right;
+    background-color: #f5f5f5;
+  padding: 20px;
+  max-width: 500px;
+   }
+   .e {
+    float: left;
+    background-color: #f5f5f5;
+    padding: 20px;
+    max-width: 500px;
+   }
+   .f {
+    float: right;
+    background-color: #f5f5f5;
+  padding: 20px;
+  max-width: 500px;
+   }
+   .g {
+    float: left;
+    background-color: #f5f5f5;
+  padding: 20px;
+  max-width: 500px;
+   }
+
+   .footer{
+    background-color: #726b6b;
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+margin: 0 auto;
+   }
+
+   .item{
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    font-size: 20px;
+   }
+
